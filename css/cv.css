@@ -1,0 +1,256 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container-fluid{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.row{
+	width: 100%;
+	margin-left: 0;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.intro{
+	margin-top: 10%;
+	background-color: #222121d9;
+}
+.intro .ava{
+	background-color: #2828282e;
+}
+.intro img{
+	width: 60%;
+	height: 60%;
+	border-radius: 50%;
+	margin-left: 20%;
+	margin-top: 15%;
+}
+.intro .name{
+	height: 60%;
+}
+.name p{
+	font-size: 50px;
+	margin-top: 15%;
+	font-weight: 600;
+	font-family: 'Crimson Text', serif;
+	color: #bebebe;
+}
+.name small{
+	font-size: 30px;
+	color:#ffc800;
+	font-family: 'Crimson Text', serif;
+}
+.name .social{
+	height: 100%;
+}
+.name .fa{
+	width: 20%;
+    height: 20%;
+    border: 1px solid white;
+    background-color: #e1e0e0;
+    color: #aba8a8;
+    border-radius: 20%;
+    margin-top: 70%;
+}
+a .fa-facebook-f{
+	 padding-left: 6%;
+    padding-top: 4%;
+}
+.name .fa-instagram{
+	 padding-left: 4%;
+    padding-top: 4%;
+    margin-left: 2%;
+}
+.name .fa:hover{
+	background-color: black;
+	color: white;
+	border-color: orange;
+}
+.intro .detail{
+	height: 32%;
+	margin-left: 3%;
+}
+.detail .detail_ele{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.detail_ele .detail_tit{
+	color: #767575;
+	font-size: 20px;
+	font-family: 'Crimson Text', serif;
+	font-weight: 600;
+}
+.detail_ele p{
+	font-size: 15px;
+	color: white;
+}
+.infor{
+	background-color: #363636d9;
+}
+.infor .info_tit{
+	background-color: #4b4a4a14;
+}
+.infor .info{
+	background-color:#3c3c3c4a;
+}
+.info_tit p{
+	color: #9f9c9c;
+	font-size: 20px;
+	font-weight: 600;
+	padding-left: 65%;
+}
+.info_tit small{
+	color: white;
+	padding-left: 65%;
+}
+.info .info_ele{
+	color: orange;
+	margin-top: 3%;
+	margin-bottom: 5%;
+	margin-left: 10%;
+}
+.info .info_deta{
+	width: 70%;
+	position: absolute;
+	margin-top: -8%;
+	margin-left: 20%;
+	color: white;
+}
+.skill{
+	background-color: #363636d9;
+}
+.skill .skill_tit{
+	background-color: #5f5d5d;
+}
+.skill_tit p{
+	color: #9f9c9c;
+	font-size: 20px;
+	font-weight: 600;
+	padding-left: 65%;
+}
+.skill_tit small{
+	color: white;
+	padding-left: 65%;
+}
+.skill .skill_ele{
+	width: 100%;
+	height: 30%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 20%;
+}
+.skill .skill_ele .progress{
+	height: 5px;
+	}
+.skill .skill_ele .progress-bar{
+	background-color: orange;
+	animation: fill 1s ease-out forwards;
+	 animation-delay: 2.5s;
+}
+@-webkit-keyframes fill{
+    from{
+        width: 0;
+    }
+}
+ 
+@keyframes fill{
+    from{
+        width: 0;
+    }
+}
+.skill .skill_ele .per{
+	color: orange;
+	position: absolute;
+	margin-top: 2%;
+	margin-left: 80%;
+}
+.skill .skill_ele h5{
+	color: white;
+}
+.sk_de{
+	height: 10%;
+	background-color: white;
+	margin-top: 3%;
+}
+.skill_ele .active{
+	display: block;
+}
+.edu{
+	background-color: #363636d9;
+}
+.edu .edu_tit{
+	background-color: #8080806b;
+}
+.edu .my_edu{
+	background-color:#453e3e61;
+}
+.edu_tit p{
+	color: #9f9c9c;
+	font-size: 20px;
+	font-weight: 600;
+	padding-left: 65%;
+}
+.edu .my_edu ul{
+color: white;
+margin-left: 10%;
+}
+.edu .my_edu li{
+	height: 100px;
+}
+
+.edu .edu_de1{
+	height: 50%;
+	background-color: white;
+	color: black;
+	/*display: none;*/
+}
+.edu_de1:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0; 
+  bottom: 81%;
+  left: 13%;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+}
+.edu .edu_de2{
+	height: 50%;
+	background-color: white;
+	color: black; 
+	/*display: none;*/
+}
+.edu_de2:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0; 
+  bottom: 35%;
+  left: 13%;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+}
+.exp{
+	background-color: #363636d9;
+}
+.exp .exp_tit{
+	background-color: #5b5a5a6b;
+}
+.exp .my_exp{
+	background-color:#706d6d61;
+}
+.exp_tit p{
+	color: #9f9c9c;
+	font-size: 20px;
+	font-weight: 600;
+	padding-left: 65%;
+}
+.my_exp p{
+	text-align: center;
+color: white;
+}
+
