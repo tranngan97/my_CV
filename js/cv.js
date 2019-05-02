@@ -1,20 +1,19 @@
 $(function(){
 
-	// $(".skill_ele").each(function(){
-	// 	$(this).click(function(){
-	// 	$(this).children(".sk_de").toggleClass("active");
-	// 	$(this).parent().next().slideDown();
+	$(window).scroll(function() {
+		var offset= $(".skill").offset().top;
+		var scroll = $(window).scrollTop();
+		if (scroll = offset) {
+			$('.skill .skill_ele .progress-bar').addClass("ani");
+		}
+	});
+	$(".map").mouseover(function(){
+		$("#map").css("display", "block");
 
-	// });
-	// })
-	// $(".my_edu li").each(function(){
-	// 	$(this).click(function(){
-	// 		$(this).children(".detail").css("display", "block");
-	// 	})
-	// });
+	});
+	$(".map").mouseout(function(){
+		$("#map").css("display", "none");
 
+	});
 
-
-
-
-})
+});

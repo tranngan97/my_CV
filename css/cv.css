@@ -12,8 +12,34 @@
 	padding-left: 0 !important;
 	padding-right: 0 !important;
 }
+.menu{
+	width: 100%;
+	height: 150px;
+	background-color: #6e6969;
+}
+.menu h1{
+	padding-top: 5%;
+	padding-left: 5%;
+	color:white;
+}
+.menu ul{
+	width: 50%;
+	position: absolute;
+	z-index: 1010;
+	list-style-type:none;
+	margin-left: 50%;
+	margin-top:-3%;
+}
+.menu li{
+	width: 25%;
+float: left;
+text-align: center;
+}
+.menu a{
+	color: white;
+}
 .intro{
-	margin-top: 10%;
+	margin-top: 0%;
 	background-color: #222121d9;
 }
 .intro .ava{
@@ -76,6 +102,17 @@ a .fa-facebook-f{
 	height: 100%;
 	float: left;
 }
+.detail .detail_ele #map{
+	position: absolute;
+	margin-top: -25%;
+	margin-left: 10%;
+	display: none;
+}
+
+/*.detail_ele p:hover{
+	color: orange;
+	font-size: 17px;
+}*/
 .detail_ele .detail_tit{
 	color: #767575;
 	font-size: 20px;
@@ -86,6 +123,16 @@ a .fa-facebook-f{
 	font-size: 15px;
 	color: white;
 }
+.detail_ele a{
+	color: white;
+}
+.detail_ele a:hover{
+	color: orange;
+	text-decoration: none;
+	position: absolute;
+	margin-top: -1%;
+	margin-left: 1%;
+	}
 .infor{
 	background-color: #363636d9;
 }
@@ -146,8 +193,10 @@ a .fa-facebook-f{
 	}
 .skill .skill_ele .progress-bar{
 	background-color: orange;
-	animation: fill 1s ease-out forwards;
-	 animation-delay: 2.5s;
+}
+.ani{
+animation: fill 1s ease-out forwards;
+animation-delay:1s;
 }
 @-webkit-keyframes fill{
     from{
@@ -253,4 +302,30 @@ margin-left: 10%;
 	text-align: center;
 color: white;
 }
-
+.practice{
+	background-color: #363636d9;
+}
+.practice .pra_tit{
+	background-color: #a7a7a726;
+}
+.practice .my_pra{
+	background-color:#61616161;
+}
+.pra_tit p{
+	color: #9f9c9c;
+	font-size: 20px;
+	font-weight: 600;
+	padding-left: 65%;
+}
+.practice img{
+	width: 100%;
+	height: 80%;
+	margin-top: 5%;
+}
+.practice a{
+	color: white;
+}
+.practice a:hover{
+	text-decoration: none;
+	color: orange;
+}

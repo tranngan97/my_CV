@@ -20,6 +20,15 @@
 </head>
 <body>
 	<div class="container-fluid">
+		<div class="menu">
+			<h1>Hello, Welcome to my CV</h1>
+			<ul>
+				<li><a href="#info">Information</a></li>
+				<li><a href="#skill">Skill</a></li>
+				<li><a href="#edu">Education</a></li>
+				<li><a href="#work">Practice</a></li>
+			</ul>
+		</div>
 		<div class="row intro">
 			<div class="col-xl-4 col-lg-4 col-md-5 col-sm-5 ava wow fadeIn" data-wow-delay="0.3s">
 				<img src="img/ava.jpg" alt="Trần Thị Ngân">
@@ -39,7 +48,9 @@
 				<div class="detail">
 					<div class="detail_ele wow fadeIn" data-wow-delay="0.5s">
 						<p class="detail_tit"><span class="fa fa-map-marker">Location</span></p>
-						<p>Van Kiep, Hoan Kiem, Ha Noi</p>
+						<a href="#map" target="_self" class="map">Van Kiep, Hoan Kiem, Ha Noi</a>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.3512166265596!2d105.86112467561138!3d21.018628468861095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abefe93b42f3%3A0xf50857f29e57c76e!2zVuG6oW4gS2nhur9wLCBIb8OgbiBLaeG6v20sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1556711596290!5m2!1svi!2s" width="300" height="200" frameborder="0" style="border:0" allowfullscreen id="map">
+						</iframe>
 					</div>
 					<div class="detail_ele wow fadeIn" data-wow-delay="0.7s">
 						<p class="detail_tit"><span class="fa fa-phone">Phone</span></p>
@@ -47,28 +58,28 @@
 					</div>
 					<div class="detail_ele wow fadeIn" data-wow-delay="0.8s">
 						<p class="detail_tit"><span class="fa fa-envelope">Email</span></p>
-						<p>tranngana5@gmail.com</p>
+						<a href="https://mail.google.com" target="_blank" title="Chuyển tới Gmail">tranngana5@gmail.com</p></a>
 					</div>
 				</div>
 			</div>
 		</div> <!-- end intro -->
-		<div class="row infor">
+		<div class="row infor" id="info">
 			<div class="col-xl-4 col-lg-4 col-md-5 col-sm-5 info_tit">
 				<p>INFORMATION</p>
 				<small>what I am all about</small>
 			</div>
 			<div class="col-xl-8 col-lg-8 col-md-6 col-sm-6 info">
 				<p class="info_ele wow fadeInUp" data-wow-delay="0.2s">D.O.B:</p>
-				<p class="info_deta wow fadeInUp" data-wow-delay="0.2s">10/08/1997</p> <br>
-				<p class="info_ele wow fadeInUp" data-wow-delay="0.2s">Education:</p>
-				<p class="info_deta wow fadeInUp" data-wow-delay="0.2s">Senior Student at Ha Noi University of Science and Technology</p> <br>
-				<p class="info_ele wow fadeInUp" data-wow-delay="0.2s">Skill:</p>
-				<p class="info_deta wow fadeInUp" data-wow-delay="0.2s">HTML, CSS, JS, jQuery, Bootstrap</p><br>
-				<p class="info_ele wow fadeInUp" data-wow-delay="0.2s">Ambition:</p>
-				<p class="info_deta wow fadeInUp" data-wow-delay="0.2s">I am looking for a internship full-time (or part-time) job about Front-end Web to improve my skill and knowledge about web development</p>
+				<p class="info_deta wow fadeInUp" data-wow-delay="0.1s">10/08/1997</p> <br>
+				<p class="info_ele wow fadeInUp" data-wow-delay="0.1s">Education:</p>
+				<p class="info_deta wow fadeInUp" data-wow-delay="0.1s">Senior Student at Ha Noi University of Science and Technology</p> <br>
+				<p class="info_ele wow fadeInUp" data-wow-delay="0.1s">Skill:</p>
+				<p class="info_deta wow fadeInUp" data-wow-delay="0.1s">HTML, CSS, JS, jQuery, Bootstrap, Beginning at PHP</p><br>
+				<p class="info_ele wow fadeInUp" data-wow-delay="0.1s">Ambition:</p>
+				<p class="info_deta wow fadeInUp" data-wow-delay="0.1s">I am looking for a internship full-time (or part-time) job about Front-end Web to improve my skill and knowledge about web development</p>
 			</div>
 		</div> <!-- end infor -->
-		<div class="row skill">
+		<div class="row skill" id="skill">
 			<div class="col-xl-4 col-lg-4 col-md-5 col-sm-5 skill_tit">
 				<p>SKILL</p>
 				<small>Progress bars, anyone?</small>
@@ -93,6 +104,7 @@
 						</div>
 						<div class="sk_de wow fadeIn" data-wow-delay="0.2s">
 							<p>- Responsive website</p>
+							<p>- Basic knowledge in Sass</p>
 						</div>
 					</div>
 					<div class="skill_ele">
@@ -103,13 +115,13 @@
 						</div>
 						<div class="sk_de wow fadeIn" data-wow-delay="0.2s">
 							<p>- Basic use in Javascript and jQuery framework</p>
-							<p>- Newbie at Angular JS</p>
+							<p>- Learning Started at Angular JS</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div> <!-- end skill -->
-		<div class="row edu">
+		<div class="row edu" id="edu">
 			<div class="col-xl-4 col-lg-4 col-md-5 col-sm-5 edu_tit">
 				<p>EDUCATION</p>
 			</div>
@@ -117,11 +129,11 @@
 				<ul>
 					<li>
 						<p class="time">2015-now</p>
-						<p class="detail edu_de1 wow fadeIn" data-wow-delay="0.5s">- Sofware Engineering Student at Ha Noi University of Science and Technology</p>
+						<p class="detail edu_de1 wow fadeIn" data-wow-delay="0.2s">- Sofware Engineering Student at Ha Noi University of Science and Technology</p>
 					</li>
 					<li>
 						<p class="time">3/2019</p>
-						<p class="detail edu_de2 wow fadeIn" data-wow-delay="0.5s">- Finish Front-end web develop course at Zent Group (https://zent.edu.vn)</p>
+						<p class="detail edu_de2 wow fadeIn" data-wow-delay="0.2s">- Finish Front-end web develop course at Zent Group (https://zent.edu.vn)</p>
 					</li>
 				</ul>
 			</div>	
@@ -133,8 +145,25 @@
 			<div class="col-xl-8 col-lg-8 col-md-6 col-sm-6 my_exp">
 				<p>I am just have none experience in internship or reality project by now</p>
 			</div>
-
+		</div><!--  end exp -->
+		<div class="row practice" id="work">
+			<div class="col-xl-4 col-lg-4 col-md-5 col-sm-5 pra_tit">
+				<p>MY PRACTICE</p>
+			</div>
+			<div class="col-xl-8 col-lg-8 col-md-6 col-sm-6 my_pra">
+				<div class="row">
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+						<img src="img/1.png">
+						<a href="https://github.com/tranngan97/my_code" span class="fa fa-download">Download my code</a>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+						<img src="img/2.png">
+						<a href="https://github.com/tranngan97/my_code" span class="fa fa-download">Download my code</a>
+					</div>
+				</div>
+			</div>
 		</div>
+		
 
 
 	</div> <!-- end container -->
